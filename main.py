@@ -1,4 +1,8 @@
-import main
+# Author: Yanling Yan Lu yfl5541@psu.edu
+# Collaborator: Gabrielle Brunner-King gsb5225@psu.edu
+# Collaborator: Mason McGuirk (mtm5868@psu.edu)
+# Section: 4
+# Breakout: 13
 
 def getLetterGrade(grade):
   if grade >= 93.0:
@@ -19,11 +23,11 @@ def getLetterGrade(grade):
     lettergrade = 'D'
   else:
     lettergrade = 'F'
-  return "lettergrade"
+  return lettergrade
 
 def run():
   lettergrade = float(input("Enter your CMPSC 131 grade: "))
-  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(grade)}.")
+  print(f"Your letter grade for CMPSC 131 is {getLetterGrade(lettergrade)}.")
 
 if __name__=="__main__":
   run()
